@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./asset/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-first">
+            <form action="" method="get">
+                <h2>Sign in Form</h2>
+                <div class="sign-in-form"><br>
+                    <label for="sign-in-login"> Login:</label><br>
+                    <input type="text" id="sign-in-login" name="sign-in-login" placeholder="Enter your name">
+                    <br>
+                    <br>
+                    <label for="sign-in-pass"> Password:</label><br>
+                    <input type="password" id="sign-in-pass" name="sign-in-pass" placeholder="Password">
+                </div>
+                <div class="sign-in-footer">
+                    <button type="submit" class="sign-in-footer-button">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="card-second">
+            <h2>Sign up Form</h2>
+            <div class="sign-up">
+                <div class="sign-up-left">
+                    <p>Login:</p>
+                    <input type="text" name="sign-up-login" placeholder="Enter your name">
+                    <p>Password:</p>
+                    <input type="password" name="sign-up-pass" placeholder="Password">
+                    <p>Confirm password</p>
+                    <input type="password" name="sign-up-confirm-pass" placeholder="Confirm your password">
+                </div>
+                <div class="sign-up-right">
+                    <p>Select your country:</p>
+                    <select class="input" name="country" id="">
+                        <option value="Belarus">Belarus</option>
+                        <option value="England">England</option>
+                        <option value="Turkmenistan">Turkmenistan</option>
+                    </select>
+                    <p>Your phone number:</p>
+                    <input class="input" type="tel"  name="phone-number"  placeholder="Enter your pnone number" >
+                    <p>Choose your currency:</p>
+                    <input type="radio" checked name="money" class="radio">
+                    <span>EUR</span>
+                    <input type="radio" name="money" class="radio">
+                    <span>BYN</span>
+                    <input type="radio" name="money" class="radio">
+                    <span>USD</span>
+                </div>
+            </div>
+            <div class="sign-up-checkbox">
+                <div class="checkbox-first">
+                    <input type="checkbox" name="" id="" value="">
+                    <span>I agree to the terms and conditions and privacy policy</span>
+                </div>
+                <div class="checkbox-second">
+                    <input type="checkbox" name="" id="">
+                    <span>I agree to receive notifivation via email and sms</span>
+                </div>
+                <div class="sign-up-footer">
+                <button class="sign-up-footer-button" type="submit">Create Account</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
