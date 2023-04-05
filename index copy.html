@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./asset/styles/style copy.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card-first">
+            <form action="#" method="get">
+                <div class="card-header">
+                    <h1>Sign in Form</h1>
+                </div>
+                <div class="card-first-form">
+                        <label for="card-first-form-login">Login:
+                            <input id="card-first-form-login" type="text" placeholder="Enter your name" name="Login">
+                        </label>
+                        <label for="card-first-form-password">Password:<input id="card-first-form-password" type="password" placeholder="Password" name="Password"></label>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="card-first-footer-button">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="card-second">
+            <form action="#" method="get">
+                <div class="card-header">
+                    <h1>Sign up Form</h1>
+                </div>
+                <div class="card-second-form">
+                    <div class="card-second-form-left">
+                        <label for="card-second-form-left-login">Login:<input id="card-second-form-left-login" type="text" placeholder="Enter your name" name="Login"></label>
+                        <label for="card-second-form-left-password">Password:<input id="card-second-form-left-password" type="password" placeholder="Password" name="Password"></label>
+                        <label for="card-second-form-left-confirm">Confirm password:<input id="card-second-form-left-confirm" type="password" placeholder="Confirm your password" name="Confirm"></label>
+                    </div>
+                    <div class="card-second-form-right">
+                        <label for="card-second-form-right-country">Select your country 
+                            <select name="country" id="card-second-form-right-country">
+                                <option value="Belarus">Belarus</option>
+                                <option value="England">England</option>
+                                <option selected value="Turkmenistan">Turkmenistan</option>
+                            </select>
+                        </label>
+                        <label for="card-second-form-right-telephone">Your phone number:<input id="card-second-form-right-telephone" type="tel" list="dl-tel" name="Telephone">
+                            <datalist id="dl-tel">
+                                <option value="+375">Belarus</option>
+                                <option value="+44">England</option>
+                                <option value="+993">Turkmenistan</option>
+                            </datalist>
+                        </label>  
+                        <label>                          
+                            <input checked type="radio" name="currency" id="EUR">EUR
+                            <input  type="radio" name="currency" id="BYN">BYN
+                            <input type="radio" name="currency" id="USD">USD
+                        </label>                        
+                    </div>
+                    <div class="card-second-form-checkbox">
+                        <label for="checkbox-first"><input id="checkbox-first" type="checkbox" name="Policy">I agree to the terms and conditions and privacy policy</label>
+                        <label for="checkbox-second"><input id="checkbox-second" type="checkbox" name="Policy">I agree to receive notifivation via email and sms</label>
+                    </div>
+                </div>            
+                <div class="card-footer">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
